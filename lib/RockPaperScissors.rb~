@@ -3,7 +3,7 @@ require 'rack/response'
 require 'haml'
 require 'thin'
 require 'rack'
-
+require 'heroku'
 module RockPaperScissors
 	class RPS
 
